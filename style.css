@@ -1,7 +1,27 @@
 body {
-    background-color: lightblue;
+    background-color: #CCFFFF;
 }
 
 .intro {
     text-align: center;
+}
+
+.topline {
+    height: 2px;
+    border-width: 0;
+    color: black;
+    background-color: black;
+}
+
+li {
+    color: #FFCCCC
+}
+
+.visitorcount {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lame {
+    visibility: hidden;
 }
